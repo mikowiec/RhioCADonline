@@ -1,0 +1,4 @@
+--check-leaks
+--recursive
+--reporter dot
+--require test/helpers/tsloader.js

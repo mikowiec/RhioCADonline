@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "declarationDir": "./dist/",
+        "stripInternal": true,
+        "downlevelIteration": true,
+        "importHelpers": true,
+        "module": "es2015",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "outDir": "./dist/",
+        "removeComments": true,
+        "target": "es5",
+        "lib": ["dom", "es2018", "esnext.array"]
+    },
+    "include": [
+        "custom_types/*.d.ts",
+        "src/index.ts"
+    ],
+    "exclude": [ "node_modules" ]
+}
